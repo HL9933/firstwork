@@ -12,7 +12,7 @@ public class feibonaqi {
             System.out.println(a);
         } else {
             for (int i = 3; i <= n; i++) {
-                c = a + b;
+                c = a + b;//求和
                 a = b;
                 b = c;
             }
